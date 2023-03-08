@@ -1,0 +1,29 @@
+#upform{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 73, 127);
+    width: 50%;
+    height: 80vh;
+    margin-left: 25%;
+    margin-top: 10vh;
+    opacity: 0.6;
+
+}
+
+input{
+    width: 50%;
+    align-self: center;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: var(--color-green-dark);
+}
+
+label{
+    padding-top: 20px;
+    text-align: center;
+}

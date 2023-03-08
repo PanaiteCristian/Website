@@ -1,0 +1,181 @@
+*{box-sizing: border-box;}
+
+
+#del_msg{
+  padding: 10px 20px 20px 90px;
+  color: aqua;
+}
+#del_msg select{
+  max-width: 700px;
+  margin-right: 20px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(16, 105, 164);
+  color: burlywood;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 20px;
+
+  width: 280px;
+  border-radius: 20px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  float: right;
+  max-width: 300px;
+  padding: 10px;
+  background-color: var(--background);
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: rgb(168, 204, 250);
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: rgb(150, 183, 255);
+  outline: none;
+  color: #f1f1f1;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a black background color to the cancel button */
+.form-container .cancel {
+  background-color: black;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/*---------chat window---------------*/
+span#message_username {
+  color: aqua;
+  margin-left: 20%;
+}
+
+.msg-history {
+  margin-left: 5%;
+  height: 1000px;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: auto;
+
+}
+
+.incoming-msg-img {
+  display: inline-block;
+  width: 6%;
+}
+
+.incoming-msg-img img {
+  width: 100%;
+}
+
+.incoming-msg-content {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  max-width: 70%;
+}
+
+.msg-card {
+  margin: 0;
+  width: 100%;
+}
+
+.msg-body {
+  background: #EEEEEE none repeat scroll 0 0;
+  border-radius: 0 15px 15px 15px;
+  padding: 5px 10px 5px 12px;
+}
+
+.message {
+  color: #646464;
+  font-size: 14px;
+}
+
+.msg-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.outgoing-msg-content {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+
+.msg-card {
+  float: right;
+  max-width: 70%;
+  margin: 0;
+}
+
+.msg-body {
+  background: #4285F4;
+  padding: 5px 10px 5px 12px;
+  border-radius: 12px 15px 15px 0;
+}
+
+.message {
+  font-size: 16px;
+  color: #fff;
+}
+
+.msg-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+#user_image{
+  margin-left: 5%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 1px #157150;
+}
+
+.btn{
+  border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+header, footer, aside, nav, form, iframe {
+    display: none;
+}
+
+body {
+    min-width: 800px;
+    margin:0; 
+    padding:0; 
+    line-height: 1.4em; 
+    word-spacing:1px; 
+    letter-spacing:0.2px; 
+    font: 13px Arial, Helvetica,"Lucida Grande", serif; 
+    color: #000;
+    min-width: 100vh;
+}
+
+img{
+    
+    display: none;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

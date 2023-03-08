@@ -1,0 +1,33 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 40px;
+
+}
+
+form label{
+    color: aqua;
+    text-align: center;
+}
+
+#pickingUser{
+    align-self: center;
+}
+
+.btn{
+    margin-top: 10px;
+    align-self: center;
+    width: 300px;
+    background-color: rgb(12, 12, 56);
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.btn:hover{
+    background-color: inherit;
+    transition: 500ms;
+}
+
+
